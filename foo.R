@@ -2,7 +2,7 @@
 r <- 2
 
 # Function to compute the volume of a sphere with radius r
-volume <- function(r, rho) {
+volume <- function(r) {
   (4/3) * pi * r^3
 }
 

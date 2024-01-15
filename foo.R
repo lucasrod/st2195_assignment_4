@@ -8,7 +8,7 @@ volume <- function(r) {
 
 # Function to compute the volumes of the spheres with radius r, r^2 and r^3
 volume_vector <- function(r) {
-  for (r in 2:4){
+  for (i in 1:3){
     volume(r)
   }
 }
